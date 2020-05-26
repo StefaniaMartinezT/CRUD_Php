@@ -1,0 +1,12 @@
+CREATE DATABASE nearcollege;
+USE nearcollege;
+CREATE TABLE aspirantes (
+  id int(11) NOT NULL AUTO_INCREMENT,
+  Nombre varchar(50) NOT NULL,
+  Apellido varchar(50) CNOT NULL,
+  Sexo tinyint(4) NOT NULL,
+  FechaNacimiento varchar(20)  NOT NULL,
+  FechaRegistro varchar(20)  NOT NULL,
+  Documento varchar(50) NOT NULL,
+  PRIMARY KEY (id)
+) ;
